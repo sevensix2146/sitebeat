@@ -1,0 +1,294 @@
+html, body{
+    padding: 0;
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+.row, .col-12{
+    margin: 0;
+    padding: 0;
+}
+.navbar{
+    margin-bottom: 30px;
+}
+.container-fluid{
+    padding: 0;
+}
+.img-fluid{
+    width: 30%;
+    
+}
+.my-divider{
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+.my-box1{
+    background-color: #FF1F41;
+}
+.my-inner-box1{
+    margin-bottom: 30px;
+    padding: 30px;
+}
+.my-inner-box1 h1{
+    margin-top: 120px;
+    font-size: 40px;
+    font-weight: bold;
+}
+.my-inner-box1 h1 span{
+    color: white;
+}
+.my-inner-box2 h1{
+    font-size: 30px;
+    text-align: center;
+    font-weight: bold;
+}
+.my-inner-box2 p{
+    color: white;
+    font-size: 17px;
+    text-align: center;
+    margin-bottom: 50px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+.my-inner-box3{
+    padding: 30px;
+}
+.my-inner-box3 h1{
+    color: white;
+    font-weight: bold;
+}
+.my-element1{
+    width: 100%;
+}
+.my-box2{
+    background-color: white;
+}
+.my-box3{
+    background-color: #FF1F41;
+    height: 600px;
+}
+.my-box3 button{
+    padding: 6px 50px;
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+.my-box3 row{
+    
+}
+.my-box3 h1{
+    font-weight: bold;
+}
+.my-box3 h1 span{
+    color: white;
+}
+.my-tag1-up{
+    position: relative;
+    top: -300px;
+    display: none;
+    text-align: center;
+    height: 0;
+}
+.my-tag1-up h1{
+    font-size: 80px;
+    font-weight: bold;
+}
+.my-tag1-up p{
+   font-size: 20px;
+}
+.my-tag1{
+    background-color: #ff1f41;
+}
+.my-tag1 h1{
+    margin-top: 50px;
+   font-size: 80px;
+    font-weight: bold;
+}
+.my-tag1 p{
+   font-size: 20px;
+}
+.btn{
+    border-radius: 20px;
+}
+.btn1{
+    padding: 10px 30px 10px 30px;
+    font-size: 20px;
+}
+.my-box4{
+    margin-top: 50px;
+    margin-bottom: 50px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+.my-box4 h1{
+    font-weight: bold;
+}
+.my-inner-box4{
+    margin-top: 30px;
+}
+.btn2{
+    padding: 6px 50px;
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+.my-box5{
+    height: 300px;
+}
+.my-box6{
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.my-box6 img{
+    margin-top: 30px;
+}
+.my-box6 h1{
+    font-weight: bold;
+}
+.my-box6 button{
+    padding: 6px 50px;
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+.person{
+    width: 50%;
+    margin: auto;
+}
+.person img{
+    width: 100%;
+}
+.divider{
+    margin-top: -44%;
+}
+.divider img{
+    width: 100%;
+}
+.my-box2 .col-md-6{
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.my-box2 video{
+    margin-top: 150px;
+    margin-bottom: 150px;
+}
+.my-inner-element1{
+    font-weight: bold;
+}
+.my-inner-box5 button{
+    padding: 6px 50px;
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+.my-inner-box5 h1{
+    font-size: 20px;
+}
+.my-tag2 h1{
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+.my-tag3{
+    margin-bottom: 50px;
+}
+.my-tag3 h1{
+    font-size: 20px;
+    padding: 15px;
+}
+.my-box7{
+    margin-bottom: 100px;
+}
+.footer{
+    background-color: #212121;
+    color: white;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+.footer h1{
+    font-size: 50px;
+    font-weight: bold;
+}
+.footer .row .col-md-6 p{
+    font-weight: 400;
+    font-size: 12px;
+}
+.footer .col-md-2 a{
+    font-size: 12px;
+}
+
+.a{
+    border: solid red;
+}
+
+
+@media only screen and (min-width: 768px){
+    .my-tag1 h1{
+        font-size: 120px;
+    }
+    .my-tag1 p{
+       font-size: 30px;
+    }
+    .my-tag1{
+        display: none;
+    }
+    .my-tag1-up{
+        display: block;
+    }
+    .my-box1 h1{
+        margin-top: 20px;   
+    }
+    .my-inner-box1 h1, .my-inner-box3 h1, .my-box4 h1{
+        font-size: 60px;   
+    }
+    .my-inner-box2 h1{
+        font-size: 40px;   
+    }
+    .my-inner-box2 p, .smy-box4 p{
+        font-size: 20px;
+    }
+    .person{
+        width: 40%;
+    }
+    .divider{
+        margin-top: -44%;
+        min-height: 20x !important;
+    }
+    .my-box2{
+        background-image: url(asset/e-com-image.jpg);
+        background-color: #cccccc;
+        height: 1080px;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        position: relative;
+        display: flex;
+        align-items: center;
+        margin-top: 100px;
+        margin-bottom: 100px;
+    }
+    .my-box2 video{
+        margin: 0;
+    }
+    
+    
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
